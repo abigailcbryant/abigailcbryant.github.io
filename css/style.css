@@ -1,20 +1,20 @@
 /* Set the scroll behavior to smooth so that when you click the in the header, the screen scrolls down rather than jumps */ html { scroll-behavior: smooth; } /* Set the margin to 0 to make sure the page stretches all the way to the edge of the browser window. */ body { margin: 0; }
 header, footer {
-  background-color: #ffa500;
+  background-color: #81b29a;
   text-align: left;
   /*min-width: 500px;*/
 }
 
-header { font-family: Work Sans; color: #fff; min-height: 100vh; display: flex; }
+header { font-family: 'Crimson', serif; color: #fff; min-height: 100vh; display: flex; }
 
 main { display: grid; grid-template-columns: repeat(auto-fill, minmax(40%, 1fr) ) ; grid-gap: 20px; margin-top: 44px; justify-items: center; justify-content: center; align-items: stretch; align-content: center;
 }
 
-h1 { font-family: Poppins; font-size: calc(1em + 3vw); padding-bottom: .67em; border-bottom: 1px solid; line-height: 1.3; }
+h1 { font-family: 'Vollkorn', serif; font-size: calc(1em + 3vw); padding-bottom: .67em; border-bottom: 1px solid; line-height: 1.3; }
 
 h2 {
-  font-family: Poppins;
-  font-size: 18px;
+  font-family: 'Vollkorn';
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
@@ -30,7 +30,7 @@ img {
 
 .wrapper { max-width: 1150px; margin: auto; padding: 50px; display: block; }
 
-.bio { color: #ffffff; font-size: 24px; font-family: 'Work Sans'; }
+.bio { color: #ffffff; font-size: 24px; font-family: 'Crimson'; }
 
 .buttonBox { display: flex; justify-content: center; align-content: center; }
 
@@ -60,7 +60,7 @@ img {
 
 .mins {
   display: inline-block;
-  font-family: Poppins;
+  font-family: 'Vollkorn';
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -71,8 +71,8 @@ img {
 }
 
 .description {
-  font-family: Work Sans;
-  font-size: 14px;
+  font-family: 'Crimson';
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
