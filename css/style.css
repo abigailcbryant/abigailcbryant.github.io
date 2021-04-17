@@ -18,7 +18,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #e07a5f;
   padding: 10px 0px 10px 10px;
 }
 
@@ -30,7 +30,7 @@ img {
 
 .wrapper { max-width: 1150px; margin: auto; padding: 50px; display: block; }
 
-.bio { color: #ffffff; font-size: 24px; font-family: 'Crimson'; }
+.bio { color: #3d405b; font-size: 24px; font-family: 'Crimson'; }
 
 .buttonBox { display: flex; justify-content: center; align-content: center; }
 
